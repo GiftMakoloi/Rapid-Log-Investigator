@@ -1,0 +1,26 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables & secrets
+.env
+.stsecrets.toml
+
+# Streamlit operational runtime
+.streamlit/cache
+.streamlit/health
+
+# Local OS metadata
+.DS_Store
+Thumbs.db
+
+# Exclude local temporary log files (keep sample_access.log)
+*.tmp
+temp_*.log
